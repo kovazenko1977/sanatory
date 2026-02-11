@@ -1,0 +1,41 @@
+# Composer
+/vendor/
+composer.lock
+
+# Data files (JSON storage)
+/data/*.json
+/data/logs/*.log
+
+# Uploads
+/uploads/documents/*
+/uploads/contracts/*
+!uploads/documents/.gitkeep
+!uploads/contracts/.gitkeep
+
+# Configuration (contains passwords)
+/config/config.php
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Logs
+*.log
+error_log
+
+# Cache
+cache/
+tmp/
